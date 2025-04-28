@@ -1,0 +1,334 @@
+{
+    "characters": [
+        {
+            "id" : 1,
+            "name" : "Carlotta",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Carlotta.png",
+            "background" : "/backgroundCharacter/bg-Carlotta.png",
+            "element" : {
+                "type" : "Glacio",
+                "icon" : "/Element/Glacio.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Weapon/iconWeapon/Rectifier_Icon.png",
+                "imgWeapon": "/Weapon/The-Last-Dance.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 500
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "72.00%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+
+            }
+
+        },
+        {
+            "id" : 2,
+            "name" : "Zhezhi",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Zhezhi.png",
+            "background" : "/backgroundCharacter/bg-Zhezhi.png",
+            "element" : {
+                "type" : "Glacio",
+                "icon" : "/Element/Glacio.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Glacio.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 500
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "72.00%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 3,
+            "name" : "Changli",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Changli.png",
+            "background" : "/backgroundCharacter/bg-Changli.png",
+            "element" : {
+                "type" : "Fusion",
+                "icon" : "/Element/Fusion.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Fusion.png",
+                "imgWeapon": "/Weapon/Blazing-Brilliance.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 588
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "48.80%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 4,
+            "name" : "Yinlin",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Yinlin.png",
+            "background" : "/backgroundCharacter/bg-Yinlin.png",
+            "element" : {
+                "type" : "Electro",
+                "icon" : "/Element/Electro.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Electro.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 500
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "36.00%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 5,
+            "name" : "Jianxin",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Jianxin.png",
+            "background" : "/backgroundCharacter/bg-Jianxin.png",
+            "element" : {
+                "type" : "Aero",
+                "icon" : "/Element/Aero.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Aero.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "36.45%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 6,
+            "name" : "Cantarella",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Cantarella.png",
+            "background" : "/backgroundCharacter/bg-Cantarella.png",
+            "element" : {
+                "type" : "Havoc",
+                "icon" : "/Element/Havoc.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 500
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "72.00%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 7,
+            "name" : "Jinhsi",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Jinhsi.png",
+            "background" : "/backgroundCharacter/bg-Jinhsi.png",
+            "element" : {
+                "type" : "Spectro",
+                "icon" : "/Element/Spectro.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Spectro.png",
+                "imgWeapon": "/Weapon/Ages-of-Harvest.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 588
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritCrate_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 8,
+            "name" : "Phoebe",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Phoebe.png",
+            "background" : "/backgroundCharacter/bg-Phoebe.png",
+            "element" : {
+                "type" : "Spectro",
+                "icon" : "/Element/Spectro.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Spectro.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 500
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "36.00%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 9,
+            "name" : "Shorekeeper",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Shorekeeper.png",
+            "background" : "/backgroundCharacter/bg-Shorekeeper.png",
+            "element" : {
+                "type" : "Spectro",
+                "icon" : "/Element/Spectro.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Spectro.png",
+                "imgWeapon": "/Weapon/Stellar-Symphony.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 413
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconEnergyRegen_UI.png",
+                        "stats": "77.04%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 10,
+            "name" : "Camellya",
+            "level" : 80,
+            "star" : 5,
+            "avatar" : "/avatarCharacter/avatar-Camellya.png",
+            "background" : "/backgroundCharacter/bg-Camellya.png",
+            "element" : {
+                "type" : "Havoc",
+                "icon" : "/Element/Havoc.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        }
+    ]
+}
