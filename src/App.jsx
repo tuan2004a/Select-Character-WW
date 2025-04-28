@@ -2,6 +2,7 @@ import CardHero from './component/CardHero';
 import SelectResonator from './component/SelectCharacter/IndexSetTeam';
 import useOpenSelect from './hooks/useOpenSelect';
 import setTeamStore from './store/setTeam';
+import useCurrentSlot from './hooks/useCurrentSlot';
 
 function App() {
 
@@ -9,10 +10,13 @@ function App() {
 
     const { isOpen, setIsOpen, isOpenMulti, setIsOpenMulti, isOpenSingle, setIsOpenSingle } = useOpenSelect();
 
+    const {setCurrentSlot} = useCurrentSlot();
+
     const handleOpenSingle = (slot) => {
         setIsOpenSingle(true);
         setIsOpenMulti(false); 
         setIsOpen(true);
+        setCurrentSlot(slot);
         console.log("single", slot);
     };
 

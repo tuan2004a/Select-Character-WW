@@ -1,15 +1,19 @@
     import React from 'react';
     import useCharacterStore from '../../../store/characterStore';
     import setTeamStore from '../../../store/setTeam';
-
+    import useCurrentSlot from '../../../hooks/useCurrentSlot';
 
     const Toolbar = ({setIsOpen}) => {
         const { selectedCharacter } = useCharacterStore();
         const {setSingleTeam} = setTeamStore();
+        const { currentSlot } = useCurrentSlot();
 
         const handleClickSelect = (char) =>{
             setSingleTeam(char);
             setIsOpen(false);
+            if(currentSlot !== null){
+                setSingleTeam(selectedCharacter, currentSlot);
+            }
             console.log(char);
         }
 
