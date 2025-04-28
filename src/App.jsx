@@ -1,8 +1,11 @@
 import CardHero from './component/CardHero';
 import SelectResonator from './component/SelectCharacter/IndexSetTeam';
 import useOpenSelect from './hooks/useOpenSelect';
+import setTeamStore from './store/setTeam';
 
 function App() {
+
+    const {Team} = setTeamStore();
 
     const { isOpen, setIsOpen, isOpenMulti, setIsOpenMulti, isOpenSingle, setIsOpenSingle } = useOpenSelect();
 
@@ -25,8 +28,8 @@ function App() {
             <div className='mt-15'>
                 <div className='flex items-center justify-center size-full gap-30'>
                     {[0, 1, 2].map((slot) => (
-                        <button key={slot} onClick={() => handleOpenSingle(slot)} >
-                            <CardHero /> 
+                        <button key={slot} onClick={() => {  handleOpenSingle(slot)}} >
+                            <CardHero char={Team[slot]} /> 
                         </button>
                     ))}
                 </div>
