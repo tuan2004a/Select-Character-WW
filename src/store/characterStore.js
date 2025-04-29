@@ -12,10 +12,10 @@ const useCharacterStore = create((set, get) => ({
         const validTeam = Team.filter(Boolean);
         const selectedTeamIds = validTeam.map(member => member.id);
         return [
-          ...validTeam,
-          ...characters.filter(char => !selectedTeamIds.includes(char.id)),
+            ...validTeam,
+            ...characters.filter(char => !selectedTeamIds.includes(char.id)),
         ];
-      },
+    },
 }));
 
 export default useCharacterStore;

@@ -2,7 +2,7 @@ import CardHero from './component/CardHero';
 import SelectResonator from './component/SelectCharacter/IndexSetTeam';
 import useOpenSelect from './hooks/useOpenSelect';
 import setTeamStore from './store/setTeam';
-import useCurrentSlot from './hooks/useCurrentSlot';
+import useCurrentSlot from './store/useCurrentSlot';
 
 function App() {
 

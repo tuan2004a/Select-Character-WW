@@ -1,14 +1,12 @@
 import React from 'react';
 import dataCharactersStore from "../../../store/characterStore";
 import useFetch from '../../../hooks/useFetch';
-// import useSortedCharacters from '../../../hooks/useSortedCharacters';
 import setTeamStore from '../../../store/setTeam';
-// import useCurrentSlot from '../../../hooks/useCurrentSlot';
+// import useCurrentSlot from '../../../store/useCurrentSlot';
 
 const BoxChar = () => {
     useFetch();
     const { setSelectedCharacter,selectedCharacter, getSortedCharacters } = dataCharactersStore();
-    // const sortedCharacters = useSortedCharacters();
     const sortedCharacters = getSortedCharacters();
     // const { currentSlot } = useCurrentSlot();
     // console.log(currentSlot)

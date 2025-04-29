@@ -1,7 +1,7 @@
     import React from 'react';
     import useCharacterStore from '../../../store/characterStore';
     import setTeamStore from '../../../store/setTeam';
-    import useCurrentSlot from '../../../hooks/useCurrentSlot';
+    import useCurrentSlot from '../../../store/useCurrentSlot';
 
     const Toolbar = ({setIsOpen}) => {
         const { selectedCharacter } = useCharacterStore();
