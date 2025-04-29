@@ -6,7 +6,7 @@ import useCurrentSlot from './hooks/useCurrentSlot';
 
 function App() {
 
-    const {Team} = setTeamStore();
+    const {Team, setSingleTeam} = setTeamStore();
 
     const { isOpen, setIsOpen, isOpenMulti, setIsOpenMulti, isOpenSingle, setIsOpenSingle } = useOpenSelect();
 
@@ -17,7 +17,8 @@ function App() {
         setIsOpenMulti(false); 
         setIsOpen(true);
         setCurrentSlot(slot);
-        console.log("single", slot);
+        setSingleTeam(slot, useCurrentSlot )
+        // console.log("single", slot);
     };
 
     const handleOpenMulti = () => {

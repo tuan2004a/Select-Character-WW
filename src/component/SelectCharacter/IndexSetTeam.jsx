@@ -6,8 +6,6 @@ import InforChar from './SingleSelectResonator/InforChar';
 
 const Index = ({setIsOpen, isOpenSingle, isOpenMulti}) => {
 
-
-
     return (
         <div className="size-full flex flex-col justify-between">
             <nav className="h-[55px] w-full flex items-center justify-center">

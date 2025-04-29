@@ -12,7 +12,23 @@ const setTeamStore = create((set) =>({
     // }),
     setSingleTeam: (char, slot) => set((state) => {
         const newTeam = [...state.Team];
-        newTeam[slot] = char; // Gán trực tiếp vào đúng vị trí
+
+        const currentIndex = newTeam.findIndex((c) => c?.id === char.id);
+        const targetChar = newTeam[slot];
+
+        if (currentIndex === slot) return state;
+
+        if (currentIndex !== -1 && targetChar) {
+            newTeam[currentIndex] = targetChar;
+            newTeam[slot] = char;
+        } else {
+            if (currentIndex !== -1) {
+                newTeam[currentIndex] = null;
+            }
+            newTeam[slot] = char;
+        }
+
+        // newTeam[slot] = char; 
         return { Team: newTeam };
     }),
 }))

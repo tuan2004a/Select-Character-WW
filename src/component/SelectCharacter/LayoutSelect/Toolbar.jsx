@@ -8,13 +8,13 @@
         const {setSingleTeam} = setTeamStore();
         const { currentSlot } = useCurrentSlot();
 
-        const handleClickSelect = (char) =>{
-            setSingleTeam(char);
+        const handleClickSelect = () =>{
+            // setSingleTeam(char);
             setIsOpen(false);
-            if(currentSlot !== null){
+            if(selectedCharacter && currentSlot !== null){
                 setSingleTeam(selectedCharacter, currentSlot);
             }
-            console.log(char);
+            // console.log(char);
         }
 
         return (
@@ -26,7 +26,7 @@
                 </div>
                 <button onClick={()=> {handleClickSelect(selectedCharacter)}} className='relative block h-[60px] overflow-hidden rounded-tl-lg rounded-br-lg text-black'>
                     <img className='object-center object-cover' src="/btn-quickSetUp.jpg" alt="" />
-                    <p className='absolute top-1/2 left-1/2 -translate-1/2 text-[26px] font-bold text-nowrap'>Quick Setup</p>
+                    <p className='absolute top-1/2 left-1/2 -translate-1/2 text-[26px] font-bold text-nowrap'>Select</p>
                 </button>
             </div>
         )
