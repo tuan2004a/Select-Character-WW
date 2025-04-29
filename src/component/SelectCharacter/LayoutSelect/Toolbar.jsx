@@ -1,12 +1,12 @@
     import React from 'react';
     import useCharacterStore from '../../../store/characterStore';
     import setTeamStore from '../../../store/setTeam';
-    import useCurrentSlot from '../../../store/useCurrentSlot';
+    import CurrentSlotStore from '../../../store/CurrentSlot';
 
     const Toolbar = ({setIsOpen}) => {
         const { selectedCharacter } = useCharacterStore();
         const {setSingleTeam} = setTeamStore();
-        const { currentSlot } = useCurrentSlot();
+        const { currentSlot } = CurrentSlotStore();
 
         const handleClickSelect = () =>{
             // setSingleTeam(char);
