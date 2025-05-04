@@ -27,7 +27,7 @@ const CardHero = ({char}) => {
                     </div>
                     <div className='absolute left-0 bottom-0 pl-5 pb-3 pt-15 text-white z-50 bg-gradient-to-b bg-transparent to-black to-50% w-full overflow-hidden'>
                         <div  className='flex items-center'>
-                            <p className='font-medium text-xl text-[#ece5d8] tracking-widest'>Lv.<span className='ml-0.5 tracking-normal'>{char.level}</span></p>
+                            <p className=' text-xl text-[#ece5d8] tracking-widest'>Lv.<span className='font-semibold ml-0.5 tracking-normal'>{char.level}</span></p>
                             <img className='w-5.5  ml-2' src={char.element.icon} alt={char.element.type} />
                         </div>
                         <div>

@@ -39,7 +39,7 @@ function App() {
                     ))}
                 </div>
                 <div  className='h-[20vh] w-full flex items-center justify-end space-x-7 px-15'>
-                    <button onClick={ ()=> handleOpenMulti()} className='relative block h-[67px] overflow-hidden rounded-tl-lg rounded-br-lg'>
+                    <button onClick={ ()=> handleOpenMulti()} className='hidden relative h-[67px] overflow-hidden rounded-tl-lg rounded-br-lg'>
                         <img src="/btn-quickSetUp.jpg" alt="" />
                         <p className='absolute top-1/2 left-1/2 -translate-1/2 text-2xl font-bold text-nowrap'>Quick Setup</p>
                     </button>

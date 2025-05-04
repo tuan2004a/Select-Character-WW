@@ -3,3 +3,19 @@
 *{
     font-family: 'Lagu Sans', sans-serif;
 }
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.custom-scrollbar-sidbar-char::-webkit-scrollbar {
+    width: 0;
+}

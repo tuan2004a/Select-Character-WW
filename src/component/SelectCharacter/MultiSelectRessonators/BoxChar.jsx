@@ -11,14 +11,18 @@ const BoxChar = () => {
     const sortedCharacters = getSortedCharacters();
     const { Team } = setTeamStore();
     
+    const handleSelectChar = (char) => {
+        setSelectedCharacter(char)
+    }
+
 
     return (
-        <div className='flex flex-wrap gap-5 w-full h-full '>
+        <div className='flex flex-wrap gap-5 w-full '>
             {sortedCharacters?.map((char) => (
-                <div key={char.id} onClick={()=>{setSelectedCharacter(char)}} 
+                <div key={char.id} onClick={()=>{handleSelectChar(char)}} 
                     className={`${selectedCharacter && selectedCharacter?.id === char.id ? "outline-3 outline-offset-3 outline-white scale-105" : ""} transition-all duration-300  border-2 border-neutral-600 rounded-lg h-35 relative flex items-start overflow-hidden  `}>
                     <img className='size-26.5' src={char.avatar} alt={char.name} />
-                    <span className='absolute bottom-0 text-lg w-full bg-neutral-900 flex items-center justify-between font-semibold py-px px-1 border-t-4 border-[#edeab5] shadow-[0px_0px_50px_5px_#edeab5]'>
+                    <span style={{ borderTop: `4px solid #${char.star.color}`, boxShadow: `0px 0px 50px 5px #${char.star.color}`}} className={`absolute bottom-0 text-lg w-full bg-neutral-900 flex items-center justify-between font-semibold py-px px-1 border-t-4`}>
                         <img className='size-5' src={char.element.icon} alt={null} />
                         Lv. {char.level}
                     </span>

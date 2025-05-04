@@ -6,7 +6,6 @@ const InforChar = () => {
     const {selectedCharacter} = dataCharactersStore();
     if(!selectedCharacter)return null;
 
-
     var star = [];
     for(let i=0; i<selectedCharacter.weapon.star; i++){
         star.push(
@@ -15,7 +14,6 @@ const InforChar = () => {
             </svg>
         )
     }
-
 
     return (
         <div>

@@ -4,7 +4,10 @@
             "id" : 1,
             "name" : "Carlotta",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Carlotta.png",
             "background" : "/backgroundCharacter/bg-Carlotta.png",
             "element" : {
@@ -37,7 +40,10 @@
             "id" : 2,
             "name" : "Zhezhi",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Zhezhi.png",
             "background" : "/backgroundCharacter/bg-Zhezhi.png",
             "element" : {
@@ -70,7 +76,10 @@
             "id" : 3,
             "name" : "Changli",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Changli.png",
             "background" : "/backgroundCharacter/bg-Changli.png",
             "element" : {
@@ -103,7 +112,10 @@
             "id" : 4,
             "name" : "Yinlin",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Yinlin.png",
             "background" : "/backgroundCharacter/bg-Yinlin.png",
             "element" : {
@@ -136,7 +148,10 @@
             "id" : 5,
             "name" : "Jianxin",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Jianxin.png",
             "background" : "/backgroundCharacter/bg-Jianxin.png",
             "element" : {
@@ -169,7 +184,10 @@
             "id" : 6,
             "name" : "Cantarella",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Cantarella.png",
             "background" : "/backgroundCharacter/bg-Cantarella.png",
             "element" : {
@@ -202,7 +220,10 @@
             "id" : 7,
             "name" : "Jinhsi",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Jinhsi.png",
             "background" : "/backgroundCharacter/bg-Jinhsi.png",
             "element" : {
@@ -235,7 +256,10 @@
             "id" : 8,
             "name" : "Phoebe",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Phoebe.png",
             "background" : "/backgroundCharacter/bg-Phoebe.png",
             "element" : {
@@ -268,7 +292,10 @@
             "id" : 9,
             "name" : "Shorekeeper",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Shorekeeper.png",
             "background" : "/backgroundCharacter/bg-Shorekeeper.png",
             "element" : {
@@ -301,7 +328,10 @@
             "id" : 10,
             "name" : "Camellya",
             "level" : 80,
-            "star" : 5,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
             "avatar" : "/avatarCharacter/avatar-Camellya.png",
             "background" : "/backgroundCharacter/bg-Camellya.png",
             "element" : {
@@ -312,6 +342,150 @@
                 "title": "",
                 "level": 80,
                 "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 11,
+            "name" : "Zani",
+            "level" : 80,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
+            "avatar" : "/avatarCharacter/avatar-Zani.png",
+            "background" : "/backgroundCharacter/bg-Zani.png",
+            "element" : {
+                "type" : "Spectro",
+                "icon" : "/Element/Spectro.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 12,
+            "name" : "Ciaccona",
+            "level" : 80,
+            "star" : {
+                "number" : 5,
+                "color": "edeab5"
+            },
+            "avatar" : "/avatarCharacter/avatar-Ciaccona.png",
+            "background" : "/backgroundCharacter/bg-Ciaccona.png",
+            "element" : {
+                "type" : "Aero",
+                "icon" : "/Element/Aero.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 13,
+            "name" : "Taoqi",
+            "level" : 80,
+            "star" : {
+                "number" : 5,
+                "color": "fab2fb"
+            },
+            "avatar" : "/avatarCharacter/avatar-Taoqi.png",
+            "background" : "/backgroundCharacter/bg-Taoqi.png",
+            "element" : {
+                "type" : "Havoc",
+                "icon" : "/Element/Havoc.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Havoc.png",
+                "imgWeapon": "/Weapon/Changli-Weapon.jpg",
+                "Stats": {
+                    "ATK" : {
+                        "icon" : "/Stats/IconAttack_UI.png",
+                        "atk" : 587
+                    },
+                    "Stats2" : {
+                        "icon" : "/Stats/IconCritDMG_UI.png",
+                        "stats": "24.30%"
+                    }
+                },
+                "star":5
+            },
+            "comboSkill" : {
+                
+            }
+
+        },
+        {
+            "id" : 14,
+            "name" : "Sanhua",
+            "level" : 80,
+            "star" : {
+                "number" : 5,
+                "color": "fab2fb"
+            },
+            "avatar" : "/avatarCharacter/avatar-Sanhua.png",
+            "background" : "/backgroundCharacter/bg-Sanhua.png",
+            "element" : {
+                "type" : "Glacio",
+                "icon" : "/Element/Glacio.png" 
+            },
+            "weapon":{
+                "title": "",
+                "level": 80,
+                "iconWeapon" : "/Element/Glacio.png",
                 "imgWeapon": "/Weapon/Changli-Weapon.jpg",
                 "Stats": {
                     "ATK" : {
